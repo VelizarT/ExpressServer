@@ -1,6 +1,7 @@
 const express = require('express');
 const hbs = require('hbs');
 const fs = require('fs');
+const port = process.env.PORT || 3000; //all environment variables are in process.env!
 
 var app = express();
 
@@ -24,7 +25,7 @@ app.use((req, res, next) => {
 //     res.render('maintenance.hbs');
 // });
 
-//express middleware - teach express how to read from static directory
+//express middleware - teaches express how to read from static directory
 //express.static() - absolute path to public folder;
 //__dirname - path to the project directory; server independent; path to ExpressApp in this case
 app.use(express.static(__dirname + '/public')); 
@@ -39,7 +40,6 @@ hbs.registerHelper('screamIt', (text) => {
 });
 
 app.get('/', (req, res) => {
-    // res.send('<button>Click Me</button>Hello Express!');
     res.render('home.hbs', {
         title: 'Home Page',
         welcomeMessage: 'Welcome to my web site!' ,
@@ -63,6 +63,6 @@ app.get('/bad', (req, res) => {
     });
 });
 
-app.listen(3000, () => {
-    console.log('Server is running on port 3000');
+app.listen(port, () => {
+    console.log(`Server is running on port ${port}`);
 });
