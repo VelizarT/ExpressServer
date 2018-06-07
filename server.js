@@ -40,9 +40,13 @@ hbs.registerHelper('screamIt', (text) => {
 });
 
 app.get('/', (req, res) => {
+
+    var logsString = fs.readFileSync('server.log');
+
     res.render('home.hbs', {
         title: 'Home Page',
         welcomeMessage: 'Welcome to my web site!' ,
+        logs: logsString
     });
 });
 
@@ -53,7 +57,7 @@ app.get('/about', (req, res) => {
 });
 
 app.get('/projects', (req, res) => {
-    res.send('Hello Express!');
+    res.render('projects.hbs');
 });
 
 //sends back json with error message
