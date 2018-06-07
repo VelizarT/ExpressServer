@@ -41,12 +41,12 @@ hbs.registerHelper('screamIt', (text) => {
 
 app.get('/', (req, res) => {
 
-    var logsString = fs.readFileSync('server.log');
+    //var logsString = fs.readFileSync('server.log');
 
     res.render('home.hbs', {
         title: 'Home Page',
         welcomeMessage: 'Welcome to my web site!' ,
-        logs: logsString
+        //logs: logsString
     });
 });
 
