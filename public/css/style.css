@@ -1,3 +1,200 @@
-.test-btn {
-    color: aqua;
+@font-face {
+    font-family: custom;
+    src: url('../fonts/Bad_Coma.ttf');
+}
+
+@font-face {
+    font-family: custom-web-dev;
+    src: url('../fonts/VtksPropagandaRegular.ttf');
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.header {
+    margin-top: 14%;
+    margin-left: 1%;
+    position: absolute;
+    z-index: 1000;
+}
+
+.logo-cnt {
+    position: relative;
+}
+
+.logo {
+    font-family: custom;
+    /* font-size: 17em; */
+    display: inline-block;
+    position: absolute;
+    color: white;
+}
+
+.v {
+    font-size: 12em;
+    margin-left: 6%;
+    margin-top: -4%;
+}
+
+.e {
+    font-size: 12em;
+    margin-top: 3%;
+    margin-left: 16%;   
+}
+
+.l {
+    font-size: 16em;
+    margin-top: -1%;
+    margin-left: 26%; 
+}
+
+.i {
+    -webkit-transform: rotate(90deg);
+    font-size: 16em;
+    margin-top: -1%;
+    margin-left: 39%; 
+}
+
+.z {
+    font-size: 12em;
+    margin-top: -4%;
+    margin-left: 59%; 
+}
+
+.a {
+    font-size: 16em;
+    margin-top: 2%;
+    margin-left: 69%;  
+    color: #F9A825;
+}
+
+.r {
+    font-size: 16em;
+    margin-top: 4%;
+    margin-left: 79%; 
+    /* color: #F9A825; */
+    color: rgba(255, 157, 0, 0.7);
+}
+
+.t {
+    font-size: 16em;
+    margin-top: 15%;
+    margin-left: 9%; 
+}
+
+.o {
+    font-size: 16em;
+    margin-top: 15%;
+    margin-left: 19%; 
+    color: rgba(255, 157, 0, 0.7);
+}
+
+.n {
+    -webkit-transform: rotate(-90deg);
+    font-size: 16em;
+    margin-top: 15%;
+    margin-left: 29%; 
+    color: rgba(255, 247, 0, 0.7);
+}
+
+.h {
+    font-size: 12em;
+    margin-top: 15%;
+    margin-left: 44%; 
+    /* color: #F9A825; */
+}
+
+.c {
+    font-size: 12em;
+    margin-top: 15%;
+    margin-left: 53%; 
+    color: #F9A825;
+}
+
+.te {
+    -webkit-transform: rotate(-90deg);
+    font-size: 12em;
+    margin-top: 17%;
+    margin-left: 58%; 
+    color: rgba(255, 247, 0, 0.95);
+}
+
+.tv {
+    font-size: 16em;
+    margin-top: 23%;
+    margin-left: 50%; 
+    /* color: #F9A825; */
+} 
+
+.web-dev {
+    font-family: custom-web-dev;
+    color: rgb(255, 247, 0);
+    font-size: 2em;
+    margin-top: 49%;
+    margin-left: 80%;
+}
+
+.home {
+    background: url('../img/home-cover.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(128, 128, 128, 0.2);
+    position: absolute;
+    height: 100vh;
+}
+
+.about {
+    background: url('../img/blue-squares.jpg') repeat;
+    background-color: aliceblue;
+    height: 100vh;
+}
+
+.sub-title {
+    width: 100%;
+    height: 10vh;
+    background-color: #F9A825;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.title-text {
+    margin: auto;
+    margin-right: 5vh;
+    /* text-align: end; */
+    font-family: custom-web-dev;
+    font-size: 3.4em;
+}
+
+.sub-content {
+    margin-top: 5%;
+}
+
+.quote-cnt blockquote {
+    font-size: 2em;
+}
+
+.projects {
+    background: url('../img/blue-squares.jpg') repeat;
+    background-color: aliceblue;
+    height: 110vh;
+}
+
+.contacts {
+    background: url('../img/blue-squares.jpg') repeat;
+    background-color: aliceblue;
+    height: 100vh;
+}
+
+.about-text {
+    font-size: 1.5em;
 }
