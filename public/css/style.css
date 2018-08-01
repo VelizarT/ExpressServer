@@ -1,3 +1,10 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: url('../img/blue-squares.jpg') repeat;
+    background-color: aliceblue;
+}
+
 @font-face {
     font-family: custom;
     src: url('../fonts/Bad_Coma.ttf');
@@ -13,8 +20,8 @@
 }
 
 .header {
-    margin-top: 14%;
-    margin-left: 1%;
+    margin-top: 25vh;
+    margin-left: 2vw;
     position: absolute;
     z-index: 1000;
 }
@@ -24,138 +31,140 @@
 }
 
 .logo {
+    position: absolute;
     font-family: custom;
     /* font-size: 17em; */
     display: inline-block;
     position: absolute;
     color: white;
+    cursor: default;
 }
 
 .v {
-    font-size: 12em;
-    margin-left: 6%;
-    margin-top: -4%;
+    font-size: 14vw;
+    margin-left: 6vw;
+    margin-top: -4vh;
 }
 
 .e {
-    font-size: 12em;
-    margin-top: 3%;
-    margin-left: 16%;   
+    font-size: 14vw;
+    margin-top: 3vh;
+    margin-left: 16vw;   
 }
 
 .l {
-    font-size: 16em;
-    margin-top: -1%;
-    margin-left: 26%; 
+    font-size: 24vw;
+    margin-top: -1vh;
+    margin-left: 26vw; 
 }
 
 .i {
     -webkit-transform: rotate(90deg);
-    font-size: 16em;
-    margin-top: -1%;
-    margin-left: 39%; 
+    font-size: 24vw;
+    margin-top: -1vh;
+    margin-left: 39vw; 
 }
-
 .z {
-    font-size: 12em;
-    margin-top: -4%;
-    margin-left: 59%; 
+    font-size: 14vw;
+    margin-top: -4vh;
+    margin-left: 59vw; 
 }
 
 .a {
-    font-size: 16em;
-    margin-top: 2%;
-    margin-left: 69%;  
+    font-size: 24vw;
+    margin-top: 2vh;
+    margin-left: 69vw;  
     color: #F9A825;
 }
 
 .r {
-    font-size: 16em;
-    margin-top: 4%;
-    margin-left: 79%; 
+    font-size: 24vw;
+    margin-top: 4vh;
+    margin-left: 79vw; 
     /* color: #F9A825; */
     color: rgba(255, 157, 0, 0.7);
 }
 
 .t {
-    font-size: 16em;
-    margin-top: 15%;
-    margin-left: 9%; 
+    font-size: 24vw;
+    margin-top: 25vh;
+    margin-left: 9vw; 
 }
 
 .o {
-    font-size: 16em;
-    margin-top: 15%;
-    margin-left: 19%; 
+    font-size: 24vw;
+    margin-top: 25vh;
+    margin-left: 19vw; 
     color: rgba(255, 157, 0, 0.7);
 }
 
 .n {
     -webkit-transform: rotate(-90deg);
-    font-size: 16em;
-    margin-top: 15%;
-    margin-left: 29%; 
+    font-size: 24vw;
+    margin-top: 25vh;
+    margin-left: 29vw; 
     color: rgba(255, 247, 0, 0.7);
 }
 
 .h {
-    font-size: 12em;
-    margin-top: 15%;
-    margin-left: 44%; 
+    font-size: 14vw;
+    margin-top: 25vh;
+    margin-left: 44vw; 
     /* color: #F9A825; */
 }
 
 .c {
-    font-size: 12em;
-    margin-top: 15%;
-    margin-left: 53%; 
+    font-size: 14vw;
+    margin-top: 25vh;
+    margin-left: 53vw; 
     color: #F9A825;
 }
 
 .te {
     -webkit-transform: rotate(-90deg);
-    font-size: 12em;
-    margin-top: 17%;
-    margin-left: 58%; 
+    font-size: 14vw;
+    margin-top: 27vh;
+    margin-left: 58vw; 
     color: rgba(255, 247, 0, 0.95);
 }
 
 .tv {
-    font-size: 16em;
-    margin-top: 23%;
-    margin-left: 50%; 
+    font-size: 24vw;
+    margin-top: 33vh;
+    margin-left: 50vw; 
     /* color: #F9A825; */
 } 
 
 .web-dev {
+    position: absolute;
     font-family: custom-web-dev;
     color: rgb(255, 247, 0);
-    font-size: 2em;
-    margin-top: 49%;
-    margin-left: 80%;
+    font-size: 2vw;
+    margin-top: 93vh;
+    margin-left: 80vw;
+    /* margin-top: 49%; */
+    /* margin-left: 80%; */
 }
 
 .home {
     background: url('../img/home-cover.jpeg') no-repeat center center fixed;
     background-size: cover;
+    width: 100vw;
     height: 100vh;
     position: relative;
 }
 
 .overlay {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     top: 0;
     left: 0;
     background-color: rgba(128, 128, 128, 0.2);
     position: absolute;
-    height: 100vh;
 }
 
 .about {
-    background: url('../img/blue-squares.jpg') repeat;
-    background-color: aliceblue;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .sub-title {
@@ -184,14 +193,12 @@
 }
 
 .projects {
-    background: url('../img/blue-squares.jpg') repeat;
-    background-color: aliceblue;
-    height: 110vh;
+    width: 100vw;
+    height: 100vh;
 }
 
 .contacts {
-    background: url('../img/blue-squares.jpg') repeat;
-    background-color: aliceblue;
+    width: 100vw;
     height: 100vh;
 }
 
