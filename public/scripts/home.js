@@ -10,19 +10,19 @@ $(document).ready(function(){
     $(".about-btn").click(function() {
         $([document.documentElement, document.body]).animate({
             scrollTop: $(".about").offset().top
-        }, 700);
+        }, 300);
     });
 
     $(".projects-btn").click(function() {
         $([document.documentElement, document.body]).animate({
             scrollTop: $(".projects").offset().top+2
-        }, 700);
+        }, 300);
     });
 
     $(".contacts-btn").click(function() {
         $([document.documentElement, document.body]).animate({
             scrollTop: $(".contacts").offset().top+45
-        }, 700);
+        }, 300);
     });
 
   });

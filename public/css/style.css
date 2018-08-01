@@ -44,12 +44,16 @@ html, body {
     font-size: 14vw;
     margin-left: 6vw;
     margin-top: -4vh;
+    animation: 
+        /* toBlueYellowBlue 1s ease 3, */
+        toBlue 0.5s ease 0s 5;
 }
 
 .e {
     font-size: 14vw;
     margin-top: 3vh;
-    margin-left: 16vw;   
+    margin-left: 16vw;
+    animation: toBlue 0.5s ease 0.1s 5;   
 }
 
 .l {
@@ -57,6 +61,9 @@ html, body {
     margin-top: -3vh;
     margin-left: 26vw; 
     color: #00FFC5;
+    animation: 
+        /* toBlueYellowBlue 1s ease 3, */
+        toBlue 0.5s ease 0.2s 5;
 }
 
 .i {
@@ -64,13 +71,16 @@ html, body {
     font-size: 24vw;
     margin-top: -1vh;
     margin-left: 39vw; 
+    animation: toBlue 0.5s ease 0.3s 5;   
 }
 .z {
     font-size: 14vw;
     margin-top: -4vh;
     margin-left: 59vw; 
     color: #00FFC5;
-
+    animation: 
+        /* toPulseBlue 0.5s ease 3, */
+        toBlue 0.5s ease 0.2s 5;
 }
 
 .a {
@@ -78,6 +88,8 @@ html, body {
     margin-top: 2vh;
     margin-left: 71vw;  
     color: #F9A825;
+    animation: toBlue 0.5s ease 0.3s 5;   
+
 }
 
 .r {
@@ -86,12 +98,14 @@ html, body {
     margin-left: 79vw; 
     /* color: #F9A825; */
     color: rgba(255, 157, 0, 0.7);
+    animation: toBlue 0.5s ease 0.4s 5;   
 }
 
 .t {
     font-size: 24vw;
     margin-top: 25vh;
     margin-left: 9vw; 
+    animation: toBlue 0.5s ease 0.5s 5;   
 }
 
 .o {
@@ -99,6 +113,9 @@ html, body {
     margin-top: 25vh;
     margin-left: 19vw; 
     color: rgba(255, 157, 0, 0.7);
+    animation: 
+        /* toPulseBlue 0.5s ease 3, */
+        toBlue 0.5s ease 0.6s 5;
 }
 
 .n {
@@ -107,14 +124,16 @@ html, body {
     margin-top: 25vh;
     margin-left: 29vw; 
     color: rgba(255, 247, 0, 0.7);
+    animation: toBlue 0.5s ease 0.7s 5;   
 }
 
 .h {
     font-size: 14vw;
     margin-top: 25vh;
-    margin-left: 44vw; 
+    margin-left: 45vw; 
     /* color: #F9A825; */
     color: #00FFC5;
+    animation: toBlue 0.5s ease 0.8s 5;   
 
 }
 
@@ -123,6 +142,7 @@ html, body {
     margin-top: 25vh;
     margin-left: 53vw; 
     color: #F9A825;
+    animation: toBlue 0.5s ease 0.8s 5;   
 }
 
 .te {
@@ -131,14 +151,33 @@ html, body {
     margin-top: 26vh;
     margin-left: 58vw; 
     color: rgba(255, 247, 0, 0.95);
+    animation: toBlue 0.5s ease 0.9s 5;   
+
 }
 
 .tv {
     font-size: 24vw;
     margin-top: 37vh;
     margin-left: 50vw; 
-    /* color: #F9A825; */
+    animation: 
+        /* toBlueYellowBlue 1s ease 3, */
+        toBlue 0.5s ease 1s 5;
 } 
+
+@keyframes toBlueYellowBlue {
+    25% {color: #0004FF;}
+    50% {color: yellow;}
+    75% {color: #0004FF;}
+}
+
+@keyframes toPulseBlue {
+    50% {color: rgba(0, 4, 255, 1);}
+}
+
+@keyframes toBlue {
+    50% {color: rgba(0, 4, 255, 1);}
+    /* 100% {color: rgba(0, 4, 255, 1);} */
+}
 
 .web-dev {
     position: absolute;
