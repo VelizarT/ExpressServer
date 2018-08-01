@@ -1,8 +1,8 @@
 html, body {
     margin: 0;
     padding: 0;
-    background: url('../img/blue-squares.jpg') repeat;
-    background-color: aliceblue;
+    /* background: url('../img/blue-squares.jpg') repeat; */
+    background-color: #0004FF;
 }
 
 @font-face {
@@ -32,10 +32,11 @@ html, body {
 
 .logo {
     position: absolute;
-    font-family: custom;
+    /* font-family: custom; */
     display: inline-block;
     position: absolute;
-    color: white;
+    /* color: #00FFC5; */
+    color: black;
     cursor: default;
 }
 
@@ -53,8 +54,9 @@ html, body {
 
 .l {
     font-size: 24vw;
-    margin-top: -1vh;
+    margin-top: -3vh;
     margin-left: 26vw; 
+    color: #00FFC5;
 }
 
 .i {
@@ -67,12 +69,14 @@ html, body {
     font-size: 14vw;
     margin-top: -4vh;
     margin-left: 59vw; 
+    color: #00FFC5;
+
 }
 
 .a {
     font-size: 24vw;
     margin-top: 2vh;
-    margin-left: 69vw;  
+    margin-left: 71vw;  
     color: #F9A825;
 }
 
@@ -110,6 +114,8 @@ html, body {
     margin-top: 25vh;
     margin-left: 44vw; 
     /* color: #F9A825; */
+    color: #00FFC5;
+
 }
 
 .c {
@@ -122,14 +128,14 @@ html, body {
 .te {
     -webkit-transform: rotate(-90deg);
     font-size: 14vw;
-    margin-top: 27vh;
+    margin-top: 26vh;
     margin-left: 58vw; 
     color: rgba(255, 247, 0, 0.95);
 }
 
 .tv {
     font-size: 24vw;
-    margin-top: 33vh;
+    margin-top: 37vh;
     margin-left: 50vw; 
     /* color: #F9A825; */
 } 
@@ -137,7 +143,8 @@ html, body {
 .web-dev {
     position: absolute;
     font-family: custom-web-dev;
-    color: rgb(255, 247, 0);
+    /* color: rgb(255, 247, 0); */
+    background-color: #FFF200;
     font-size: 2vw;
     margin-top: 93vh;
     margin-left: 80vw;
@@ -158,7 +165,8 @@ html, body {
     height: 100vh;
     top: 0;
     left: 0;
-    background-color: rgba(128, 128, 128, 0.2);
+    /* background-color: rgba(128, 128, 128, 0.2); */
+    background-color: rgba(255, 0, 237, 0.7);
     position: absolute;
 }
 
@@ -168,8 +176,9 @@ html, body {
 
 .sub-title {
     width: 100%;
-    height: 10vh;
-    background-color: #F9A825;
+    height: 15vh;
+    /* background-color: #F9A825; */
+    background-color: #FFF200;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -198,7 +207,7 @@ html, body {
 
 .contacts {
     width: 100%;
-    height: 100vh;
+    height: 110vh;
 }
 
 .about-text {

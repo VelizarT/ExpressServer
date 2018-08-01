@@ -21,7 +21,7 @@ $(document).ready(function(){
 
     $(".contacts-btn").click(function() {
         $([document.documentElement, document.body]).animate({
-            scrollTop: $(".contacts").offset().top+11
+            scrollTop: $(".contacts").offset().top+45
         }, 700);
     });
 

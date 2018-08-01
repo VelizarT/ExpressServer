@@ -24,7 +24,7 @@ app.use(express.static(__dirname + '/public'));
 // });
 
 app.get('/', (req, res) => {
-    res.render('home.hbs');
+    res.render('home.hbs'); 
 });
 
 // app.get('/about', (req, res) => {
