@@ -1,8 +1,9 @@
 @media only screen and (max-device-width: 480px) {
-
-    .home {
-
-    }
+/* 
+    .btn-floating {
+        width: 9vw !important;
+        height: 6vh !important;
+    } */
     
     .v {
         font-size: 14vh;

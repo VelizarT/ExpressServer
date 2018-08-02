@@ -7,46 +7,32 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" type="image/png" href="../img/code_fav2.png" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
-    <link rel="stylesheet" href="../css/style.css"> 
-    <link rel="stylesheet" href="../css/mobile-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css"> {{!--
+    <link rel="stylesheet" href="../css/style.css"> --}} {{!--
+    <link rel="stylesheet" href="../css/mobile-styles.css"> --}}
+    <link rel="stylesheet" href="../css/style-new.css">
     <title>Velizar Tonchev</title>
 </head>
 
 <body>
     {{> header}}
+
     <div class="row">
-        <section class="home" id="home">
-            <div class="overlay">
-                <div class="logo-cnt">
-                    <div class="logo v">V</div>
-                    <div class="logo e">E</div>
-                    <div class="logo l">L</div>
-                    <div class="logo i">I</div>
-                    <div class="logo z">Z</div>
-                    <div class="logo a">A</div>
-                    <div class="logo r">R</div>
-                    <div class="logo t">T</div>
-                    <div class="logo o">O</div>
-                    <div class="logo n">N</div>
-                    <div class="logo c">C</div>
-                    <div class="logo h">H</div>
-                    <div class="logo te">E</div>
-                    <div class="logo tv">V</div>
-                </div>
-                <div class="web-dev">Web Developer</div>
+        <section class="home in-view">
+            <div class="overlay in-view">
+                {{!--
+                <h1>Hello ;)</h1> --}}
             </div>
         </section>
-        <section class="about" id="about">
+
+        <section class="about in-view">
             <div class="sub-title">
                 <div class="title-text">
-                    ABOUT ME
+                    ABOUT
                 </div>
-                {{!--
-                <hr> --}}
             </div>
             <div class="sub-content container">
-                <div class="col s11 offset-s1 quote-cnt">
+                <div class="col s11 m10 l10 xl10 offset-s1 offset-m2 offset-l2 offset-xl2 quote-cnt">
                     <blockquote>
                         Inspired front end developer with the desire to evolve and become a full stack pro.
                     </blockquote>
@@ -60,13 +46,11 @@
                 </div>
             </div>
         </section>
-        <section class="projects col-s12">
+        <section class="projects in-view">
             <div class="sub-title">
                 <div class="title-text">
                     MY PROJECTS
                 </div>
-                {{!--
-                <hr> --}}
             </div>
             <div class="sub-content container">
                 <div class="col s11 offset-s1">
@@ -140,27 +124,179 @@
                 </div>
             </div>
         </section>
-        <section class="contacts col-s12">
+        <section class="skills in-view">
+            <div class="sub-title">
+                <div class="title-text">
+                    SKILLS
+                </div>
+            </div>
+            <div class="sub-content container">
+                <div class="col s11 offset-s1">
+
+                </div>
+            </div>
+        </section>
+
+        <section class="contacts in-view">
             <div class="sub-title">
                 <div class="title-text">
                     CONTACTS
                 </div>
-                {{!--
-                <hr> --}}
             </div>
-            <div class="sub-content container">
-                <div class="col s11 offset-s1">
+                <div class="sub-content container">
+                    <div class="col s11 offset-s1">
 
+                    </div>
                 </div>
-            </div>
         </section>
-    </div>
 
-    {{!-- {{> footer}} --}}
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
-    <script type="text/javascript" src="../scripts/home.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+
+        </div>
+
+
+
+
+
+
+
+        {{!--
+        <div class="row">
+            <section class="home" id="home">
+                <div class="overlay">
+                    <div class="logo-cnt">
+                        <div class="logo v">V</div>
+                        <div class="logo e">E</div>
+                        <div class="logo l">L</div>
+                        <div class="logo i">I</div>
+                        <div class="logo z">Z</div>
+                        <div class="logo a">A</div>
+                        <div class="logo r">R</div>
+                        <div class="logo t">T</div>
+                        <div class="logo o">O</div>
+                        <div class="logo n">N</div>
+                        <div class="logo c">C</div>
+                        <div class="logo h">H</div>
+                        <div class="logo te">E</div>
+                        <div class="logo tv">V</div>
+                    </div>
+                    <div class="web-dev">Web Developer</div>
+                </div>
+            </section>
+            <section class="about" id="about">
+                <div class="sub-title">
+                    <div class="title-text">
+                        ABOUT ME
+                    </div>
+                </div>
+                <div class="sub-content container">
+                    <div class="col s11 offset-s1 quote-cnt">
+                        <blockquote>
+                            Inspired front end developer with the desire to evolve and become a full stack pro.
+                        </blockquote>
+                        <div class="about-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis sint sed perferendis! Maiores minima repellendus culpa
+                            maxime asperiores, totam consectetur dolore illum labore odio ipsum ut. Iste fugiat ea id? Lorem
+                            ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis sint sed perferendis! Maiores
+                            minima repellendus culpa maxime asperiores, totam consectetur dolore illum labore odio ipsum
+                            ut. Iste fugiat ea id?
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="projects col-s12">
+                <div class="sub-title">
+                    <div class="title-text">
+                        MY PROJECTS
+                    </div>
+                </div>
+                <div class="sub-content container">
+                    <div class="col s11 offset-s1">
+
+                        <div class="row">
+                            <div class="col s12 m12 l6 xl6">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/LiveInfo.PNG">
+                                        <span class="card-title">Card Title</span>
+                                        <a class="btn-floating halfway-fab waves-effect waves-light red">
+                                            <i class="material-icons">add</i>
+                                        </a>
+                                    </div>
+                                    <div class="card-content">
+                                        <p>I am a very simple card. I am good at containing small bits of information. I am
+                                            convenient because I require little markup to use effectively.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12 m12 l6 xl6">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/LiveInfo.PNG">
+                                        <span class="card-title">Card Title</span>
+                                        <a class="btn-floating halfway-fab waves-effect waves-light red">
+                                            <i class="material-icons">add</i>
+                                        </a>
+                                    </div>
+                                    <div class="card-content">
+                                        <p>I am a very simple card. I am good at containing small bits of information. I am
+                                            convenient because I require little markup to use effectively.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col s12 m12 l6 xl6">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/LiveInfo.PNG">
+                                        <span class="card-title">Card Title</span>
+                                        <a class="btn-floating halfway-fab waves-effect waves-light red">
+                                            <i class="material-icons">add</i>
+                                        </a>
+                                    </div>
+                                    <div class="card-content">
+                                        <p>I am a very simple card. I am good at containing small bits of information. I am
+                                            convenient because I require little markup to use effectively.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12 m12 l6 xl6">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/LiveInfo.PNG">
+                                        <span class="card-title">Card Title</span>
+                                        <a class="btn-floating halfway-fab waves-effect waves-light red">
+                                            <i class="material-icons">add</i>
+                                        </a>
+                                    </div>
+                                    <div class="card-content">
+                                        <p>I am a very simple card. I am good at containing small bits of information. I am
+                                            convenient because I require little markup to use effectively.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>
+            <section class="contacts col-s12">
+                <div class="sub-title">
+                    <div class="title-text">
+                        CONTACTS
+                    </div>
+                    <div class="sub-content container">
+                        <div class="col s11 offset-s1">
+
+                        </div>
+                    </div>
+            </section>
+            </div> --}} {{!-- {{> footer}} --}}
+            <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+                crossorigin="anonymous"></script>
+            <script type="text/javascript" src="../scripts/home.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
 </body>
 
 </html>

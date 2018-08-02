@@ -1,0 +1,132 @@
+body {
+    color: #333;
+    font-size: 16px;
+    background: url('../img/paper-vector.jpg');
+}
+
+nav {
+    width: 190px;
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+}
+
+/* nav ul {
+    width: 100%;
+} */
+
+nav ul li.logo {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li.logo a:hover {
+    background-color: transparent;
+}
+
+nav ul li.logo h1 {
+    font-size: 24px;
+    padding: 11px;
+    font-weight: 300;
+}
+
+nav ul li.logo h1:not(span) {
+    color: rgb(0, 152, 152);
+}
+
+nav ul li.logo span {
+    display: block;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+nav ul li {
+    display: block;
+    width: 100%;
+    line-height: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li.active {
+    background-color: #FAFAFA;   
+}
+
+nav ul li:not(.logo) a:hover,
+nav ul li:not(.logo) a.active {
+    border-left: 5px solid rgb(0, 152, 152);
+}
+
+nav ul li a {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    color: #333;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav ul li a i {
+    margin-left: 10px;
+    position: absolute;
+}
+
+nav ul li a span {
+    margin-left: 45px;
+    font-size: 14px;
+    font-weight: 200;
+    color: #333 !important;
+}
+.in-view {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.home {
+    background: url('../img/me-and-the-crew.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: rgb(2, 2, 2);
+}
+
+.overlay {
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(137, 255, 255, 0.3);
+}
+
+.sub-title {
+    width: 100%;
+    height: 15vh;
+    font-weight: 200;
+    /* background-color: #F9A825; */
+    background-color: #009898;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.title-text {
+    margin: auto;
+    margin-right: 5vw;
+    text-align: end;
+    font-size: 3.9vw;
+}
+
+/* .sub-content {
+    margin-top: 5vh;
+} */
+
+.quote-cnt blockquote {
+    font-size: 2vw;
+}
+
+.about-text {
+    font-size: 1.5vw;
+}
+
+
