@@ -1,0 +1,134 @@
+@media only screen and (max-device-width: 480px) {
+
+    .home {
+
+    }
+    
+    .v {
+        font-size: 14vh;
+        margin-left: 6vw;
+        margin-top: -2vh;
+        animation: /* toBlueYellowBlue 1s ease 3, */
+        toBlue 0.5s ease 0s 9 forwards;
+    }
+    
+    .e {
+        font-size: 14vh;
+        margin-top: 7vh;
+        margin-left: 16vw;
+        animation: toBlue 0.5s ease 0.1s 9 forwards;
+    }
+    
+    .l {
+        font-size: 24vh;
+        margin-top: 3vh;
+        margin-left: 26vw;
+        color: #00FFC5;
+        animation: /* toBlueYellowBlue 1s ease 3, */
+        toBlue 0.5s ease 0.2s 9;
+    }
+    
+    .i {
+        -webkit-transform: rotate(90deg);
+        font-size: 24vh;
+        margin-top: 5vh;
+        margin-left: 48vw;
+        animation: toBlue 0.5s ease 0.3s 9 forwards;
+    }
+    
+    .z {
+        font-size: 14vh;
+        margin-top: -2vh;
+        margin-left: 59vw;
+        color: #00FFC5;
+        animation: toBlue 0.5s ease 0.2s 9;
+    }
+    
+    .a {
+        font-size: 24vh;
+        margin-top: 7vh;
+        margin-left: 65vw;
+        color: #F9A825;
+        animation: toBlue 0.5s ease 0.3s 9;
+    }
+    
+    .r {
+        font-size: 24vh;
+        margin-top: 9vh;
+        margin-left: 69vw;
+        /* color: #F9A825; */
+        color: rgba(255, 157, 0, 0.7);
+        animation: toBlue 0.5s ease 0.4s 9;
+    }
+    
+    .t {
+        font-size: 24vh;
+        margin-top: 31vh;
+        margin-left: 17vw;
+        animation: toBlue 0.5s ease 0.5s 9 forwards;
+    }
+    
+    .o {
+        font-size: 24vh;
+        margin-top: 31vh;
+        margin-left: 27vw;
+        color: rgba(255, 157, 0, 0.7);
+        animation: toBlue 0.5s ease 0.6s 9;
+    }
+    
+    .n {
+        -webkit-transform: rotate(-90deg);
+        font-size: 24vh;
+        margin-top: 31vh;
+        margin-left: 37vw;
+        color: rgba(255, 247, 0, 0.7);
+        animation: toBlue 0.5s ease 0.7s 9;
+    }
+    
+    .h {
+        font-size: 14vh;
+        margin-top: 67vh;
+        margin-left: 17vw;
+        /* color: #F9A825; */
+        color: #00FFC5;
+        animation: toBlue 0.5s ease 0.8s 9;
+    }
+    
+    .c {
+        font-size: 14vh;
+        margin-top: 67vh;
+        margin-left: 30vw;
+        color: #F9A825;
+        animation: toBlue 0.5s ease 0.8s 9;
+    }
+    
+    .te {
+        -webkit-transform: rotate(-90deg);
+        font-size: 14vh;
+        margin-top: 67vh;
+        margin-left: 38vw;
+        color: rgba(255, 247, 0, 0.95);
+        animation: toBlue 0.5s ease 0.9s 9;
+    }
+    
+    .tv {
+        font-size: 24vh;
+        margin-top: 59vh;
+        margin-left: 60vw;
+        animation: toBlue 0.5s ease 1s 9 forwards;
+    }
+    
+    .web-dev {
+        position: absolute;
+        font-family: custom-web-dev;
+        /* color: rgb(255, 247, 0); */
+        background-color: #FFF200;
+        font-size: 3.5vw;
+        margin-top: 93vh;
+        margin-left: 67vw;
+        /* margin-top: 49%; */
+        /* margin-left: 80%; */
+    }
+
+
+  }
