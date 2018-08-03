@@ -93,7 +93,7 @@ nav#sidenav-custom ul li a span {
 }
 
 .home {
-    background: url('../img/me-and-the-crew.jpg') no-repeat center center fixed;
+    background: url('../img/me-and-the-crew.jpg') no-repeat center center;
     background-size: cover;
     background-color: rgb(2, 2, 2);
 }
@@ -137,4 +137,42 @@ nav#sidenav-custom ul li a span {
     font-size: 1.5vw;
 }
 
+.circle-cnt {
+    position: absolute;
+    margin-left: 37.5vw;
+    margin-top: 8vh;
+    opacity: 0;
+    /* visibility: hidden; */
+    /* transition: visibility 1s, opacity 0.5s linear; */
 
+    animation: show 5s 0.2s forwards;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    border: 5px solid #333;
+}
+
+
+.text {
+    width: 200px;
+    font-size: 38px;
+    margin-left: 11vw;
+    margin-top: -30vh;
+}
+
+.text-cnt {
+    /* float: right; */
+    margin-top: 60vh;
+    margin-right: 15vw;
+    font-size: 42px;
+}
+
+@keyframes show {
+    /* 0% { margin-left: 50%;} */
+    /* 50% { margin-left: 50%} */
+    50% { opacity: 1;}
+    100% { opacity: 0;}
+}

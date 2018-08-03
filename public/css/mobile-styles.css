@@ -1,8 +1,8 @@
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 600px) {
 
-    .hide-small-device {
+    /* .hide-small-device {
         display: none;
-    }
+    } */
 
     nav.hide-large-device {
         background-color: #009898;
@@ -19,6 +19,31 @@
         padding: 0;
         color: #333;
         font-weight: 200;
+    }
+
+    .circle-cnt {
+        position: absolute;
+        margin-left: 12.5vw;
+        margin-top: 14vh;
+        opacity: 0;
+        /* visibility: hidden; */
+        /* transition: visibility 1s, opacity 0.5s linear; */
+    
+        animation: show 5s 0.2s forwards;
+    }
+    
+    .circle {
+        border-radius: 50%;
+        width: 180px;
+        height: 180px;
+        border: 5px solid #333;
+    }
+    
+    .text {
+        width: 200px;
+        font-size: 38px;
+        margin-left: 20vw;
+        margin-top: -34vh;
     }
 
   }

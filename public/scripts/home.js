@@ -31,11 +31,14 @@ $(document).ready(function(){
     });
 
     $(".menu-trigger").click(function() {
-        $('#sidenav-custom').show();
+        $('#sidenav-custom').removeClass('hide-on-small-only');
     });
 
     $("section").click(function() {
-            $('#sidenav-custom').hide();
+        var windowsize = $(window).width();
+        if(windowsize < 600) {
+            $('#sidenav-custom').addClass('hide-on-small-only');
+        }
     });
 
   });
