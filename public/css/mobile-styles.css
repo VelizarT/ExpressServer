@@ -46,4 +46,12 @@
         margin-top: -34vh;
     }
 
+    .text-cnt {
+        width: 80vw;
+        margin-top: 60vh;
+        font-size: 32px;
+        /* padding: 2%; */
+        color: white;
+    }
+
   }

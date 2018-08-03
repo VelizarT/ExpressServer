@@ -103,7 +103,7 @@ nav#sidenav-custom ul li a span {
     height: 100vh;
     top: 0;
     left: 0;
-    background-color: rgba(137, 255, 255, 0.3);
+    background-color: rgba(0, 143, 143, 0.3);
 }
 
 .sub-title {
@@ -164,10 +164,12 @@ nav#sidenav-custom ul li a span {
 }
 
 .text-cnt {
-    /* float: right; */
-    margin-top: 60vh;
-    margin-right: 15vw;
-    font-size: 42px;
+    width: 40vw;
+    margin-top: 65vh;
+    /* margin-right: 15vw; */
+    font-size: 38px;
+    padding: 2%;
+    color: white;
 }
 
 @keyframes show {
@@ -175,4 +177,10 @@ nav#sidenav-custom ul li a span {
     /* 50% { margin-left: 50%} */
     50% { opacity: 1;}
     100% { opacity: 0;}
+}
+
+.img-resize {
+    width: 100px;
+    height: 100px;
+    margin: 2%;
 }
