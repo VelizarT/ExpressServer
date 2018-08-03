@@ -31,11 +31,11 @@ $(document).ready(function(){
     });
 
     $(".menu-trigger").click(function() {
-        $('#sidenav-custom').toggle('hide-small-device');
+        $('#sidenav-custom').show();
     });
 
     $("section").click(function() {
-        $('#sidenav-custom').toggle('hide-small-device');
+            $('#sidenav-custom').hide();
     });
 
   });
