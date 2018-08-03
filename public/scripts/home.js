@@ -1,32 +1,38 @@
 $(document).ready(function(){
+    var windowsize = $(window).width();
+    var subTitleAditionalSpace = 0;
+
+    if(windowsize < 600) {
+        subTitleAditionalSpace = 53;
+    }
 
     $(".home-btn").click(function() {
         $([document.documentElement, document.body]).animate({
-            scrollTop: $(".home").offset().top
+            scrollTop: $(".home").offset().top - subTitleAditionalSpace
         }, 700);
     });
 
     $(".about-btn").click(function() {
         $([document.documentElement, document.body]).animate({
-            scrollTop: $(".about").offset().top
+            scrollTop: $(".about").offset().top - subTitleAditionalSpace
         }, 300);
     });
 
     $(".projects-btn").click(function() {
         $([document.documentElement, document.body]).animate({
-            scrollTop: $(".projects").offset().top+2
+            scrollTop: $(".projects").offset().top - subTitleAditionalSpace
         }, 300);
     });
 
     $(".skills-btn").click(function() {
         $([document.documentElement, document.body]).animate({
-            scrollTop: $(".skills").offset().top+2
+            scrollTop: $(".skills").offset().top - subTitleAditionalSpace
         }, 300);
     });
 
     $(".contacts-btn").click(function() {
         $([document.documentElement, document.body]).animate({
-            scrollTop: $(".contacts").offset().top
+            scrollTop: $(".contacts").offset().top - subTitleAditionalSpace
         }, 300);
     });
 
@@ -35,7 +41,6 @@ $(document).ready(function(){
     });
 
     $("section").click(function() {
-        var windowsize = $(window).width();
         if(windowsize < 600) {
             $('#sidenav-custom').addClass('hide-on-small-only');
         }
