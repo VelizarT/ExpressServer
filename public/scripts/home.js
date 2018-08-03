@@ -30,5 +30,13 @@ $(document).ready(function(){
         }, 300);
     });
 
+    $(".menu-trigger").click(function() {
+        $('#sidenav-custom').toggle('hide-small-device');
+    });
+
+    $("section").click(function() {
+        $('#sidenav-custom').toggle('hide-small-device');
+    });
+
   });
   

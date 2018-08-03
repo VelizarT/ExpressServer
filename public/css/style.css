@@ -1,189 +1,101 @@
-html,
 body {
-    margin: 0;
-    padding: 0;
-    /* background: url('../img/blue-squares.jpg') repeat; */
-    background-color: #0004FF;
+    color: #333;
+    font-size: 16px;
+    background: url('../img/paper-vector.jpg');
 }
 
-.no-margin {
-    margin: 0;
-    padding: 0;
-}
-
-/* @font-face {
-    font-family: custom;
-    src: url('../fonts/Bad_Coma.ttf');
-} */
-
-@font-face {
-    font-family: custom-web-dev;
-    src: url('../fonts/VtksPropagandaRegular.ttf');
-}
-
-/* ::-webkit-scrollbar { 
-    display: none; 
-} */
-
-.header {
-    margin-top: 25vh;
-    margin-left: 2vw;
-    position: absolute;
+nav#sidenav-custom {
+    width: 190px;
+    height: 100vh;
+    background-color: white;
+    position: fixed;
     z-index: 1000;
 }
 
-.logo-cnt {
-    position: relative;
-}
-
-.logo {
-    position: absolute;
-    display: inline-block;
-    position: absolute;
-    color: black;
-    cursor: default;
-}
-
-.v {
-    font-size: 14vw;
-    margin-left: 6vw;
-    margin-top: -4vh;
-    animation: /* toBlueYellowBlue 1s ease 3, */
-    toBlue 0.5s ease 0s 9 forwards;
-}
-
-.e {
-    font-size: 14vw;
-    margin-top: 3vh;
-    margin-left: 16vw;
-    animation: toBlue 0.5s ease 0.1s 9 forwards;
-}
-
-.l {
-    font-size: 24vw;
-    margin-top: -3vh;
-    margin-left: 26vw;
-    color: #00FFC5;
-    animation: /* toBlueYellowBlue 1s ease 3, */
-    toBlue 0.5s ease 0.2s 9;
-}
-
-.i {
-    -webkit-transform: rotate(90deg);
-    font-size: 24vw;
-    margin-top: -1vh;
-    margin-left: 39vw;
-    animation: toBlue 0.5s ease 0.3s 9 forwards;
-}
-
-.z {
-    font-size: 14vw;
-    margin-top: -4vh;
-    margin-left: 59vw;
-    color: #00FFC5;
-    animation: toBlue 0.5s ease 0.2s 9;
-}
-
-.a {
-    font-size: 24vw;
-    margin-top: 2vh;
-    margin-left: 71vw;
-    color: #F9A825;
-    animation: toBlue 0.5s ease 0.3s 9;
-}
-
-.r {
-    font-size: 24vw;
-    margin-top: 4vh;
-    margin-left: 79vw;
-    /* color: #F9A825; */
-    color: rgba(255, 157, 0, 0.7);
-    animation: toBlue 0.5s ease 0.4s 9;
-}
-
-.t {
-    font-size: 24vw;
-    margin-top: 25vh;
-    margin-left: 9vw;
-    animation: toBlue 0.5s ease 0.5s 9 forwards;
-}
-
-.o {
-    font-size: 24vw;
-    margin-top: 25vh;
-    margin-left: 19vw;
-    color: rgba(255, 157, 0, 0.7);
-    animation: toBlue 0.5s ease 0.6s 9;
-}
-
-.n {
-    -webkit-transform: rotate(-90deg);
-    font-size: 24vw;
-    margin-top: 25vh;
-    margin-left: 29vw;
-    color: rgba(255, 247, 0, 0.7);
-    animation: toBlue 0.5s ease 0.7s 9;
-}
-
-.h {
-    font-size: 14vw;
-    margin-top: 25vh;
-    margin-left: 45vw;
-    /* color: #F9A825; */
-    color: #00FFC5;
-    animation: toBlue 0.5s ease 0.8s 9;
-}
-
-.c {
-    font-size: 14vw;
-    margin-top: 25vh;
-    margin-left: 53vw;
-    color: #F9A825;
-    animation: toBlue 0.5s ease 0.8s 9;
-}
-
-.te {
-    -webkit-transform: rotate(-90deg);
-    font-size: 14vw;
-    margin-top: 26vh;
-    margin-left: 58vw;
-    color: rgba(255, 247, 0, 0.95);
-    animation: toBlue 0.5s ease 0.9s 9;
-}
-
-.tv {
-    font-size: 24vw;
-    margin-top: 37vh;
-    margin-left: 50vw;
-    animation: toBlue 0.5s ease 1s 9 forwards;
-}
-
-@keyframes toBlue {
-    /* 50% {color: rgba(0, 4, 255, 1);} */
-    100% {
-        color: rgba(0, 4, 255, 1);
+@media (min-width: 600px) {
+    .hide-large-device {
+      display: none;
     }
+  }
+
+/* nav ul {
+    width: 100%;
+} */
+
+nav#sidenav-custom ul li.logo {
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
-.web-dev {
+nav#sidenav-custom ul li.logo a:hover {
+    background-color: transparent;
+}
+
+nav#sidenav-custom ul li.logo h1 {
+    font-size: 24px;
+    padding: 11px;
+    font-weight: 300;
+}
+
+nav#sidenav-custom ul li.logo h1:not(span) {
+    color: rgb(0, 152, 152);
+}
+
+nav#sidenav-custom ul li.logo span {
+    display: block;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+nav#sidenav-custom ul li {
+    display: block;
+    width: 100%;
+    line-height: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+nav#sidenav-custom ul li.active {
+    background-color: #FAFAFA;   
+}
+
+nav#sidenav-custom ul li:not(.logo) a:hover,
+nav#sidenav-custom ul li:not(.logo) a.active {
+    border-left: 5px solid rgb(0, 152, 152);
+}
+
+nav ul li a {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    color: #333;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav#sidenav-custom ul li a i {
+    margin-left: 10px;
     position: absolute;
-    font-family: custom-web-dev;
-    /* color: rgb(255, 247, 0); */
-    background-color: #FFF200;
-    font-size: 2vw;
-    margin-top: 93vh;
-    margin-left: 80vw;
-    /* margin-top: 49%; */
-    /* margin-left: 80%; */
+}
+
+nav#sidenav-custom ul li a span {
+    margin-left: 45px;
+    font-size: 14px;
+    font-weight: 200;
+    color: #333 !important;
+}
+.in-view {
+    width: 100%;
+    min-height: 100vh;
 }
 
 .home {
-    background: url('../img/home-cover.jpeg') no-repeat center center fixed;
-    background-size: contain;
+    background: url('../img/me-and-the-crew.jpg') no-repeat center center fixed;
+    background-size: cover;
     background-color: rgb(2, 2, 2);
-    width: 100%;
-    height: 100vh;
-    position: relative;
 }
 
 .overlay {
@@ -191,21 +103,15 @@ body {
     height: 100vh;
     top: 0;
     left: 0;
-    /* background-color: rgba(128, 128, 128, 0.2); */
-    background-color: rgba(255, 0, 237, 0.7);
-    position: absolute;
-}
-
-.about {
-    height: 100vh;
-    width: 100%;
+    background-color: rgba(137, 255, 255, 0.3);
 }
 
 .sub-title {
     width: 100%;
     height: 15vh;
+    font-weight: 200;
     /* background-color: #F9A825; */
-    background-color: #FFF200;
+    background-color: #009898;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -214,29 +120,20 @@ body {
 .title-text {
     margin: auto;
     margin-right: 5vw;
-    /* text-align: end; */
-    font-family: custom-web-dev;
+    text-align: end;
     font-size: 3.9vw;
 }
 
-.sub-content {
+/* .sub-content {
     margin-top: 5vh;
-}
+} */
 
 .quote-cnt blockquote {
     font-size: 2vw;
 }
 
-.projects {
-    width: 100%;
-    height: 100vh;
-}
-
-.contacts {
-    width: 100%;
-    height: 110vh;
-}
-
 .about-text {
     font-size: 1.5vw;
 }
+
+
