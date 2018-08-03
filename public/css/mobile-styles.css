@@ -4,9 +4,9 @@
         display: none;
     } */
 
-    nav.hide-large-device {
+    nav#navbar-small {
         background-color: #009898;
-        height: 10vh;
+        height: 15h;
         position: fixed;
         z-index: 999;
     }
@@ -71,6 +71,10 @@
 
     section.about div.about-text {
         font-size: 20px;
+    }
+
+    .title-text {
+        font-size: 28px;
     }
 
   }
