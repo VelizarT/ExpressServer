@@ -6,6 +6,17 @@
 
     nav.hide-large-device {
         background-color: #009898;
+        height: 10vh;
+        position: fixed;
+        z-index: 999;
+    }
+
+    nav#sidenav-custom {
+        width: 150px;
+    }
+
+    nav#sidenav-custom .logo {
+        display: none;
     }
 
     .brand-logo {
@@ -52,6 +63,14 @@
         font-size: 32px;
         /* padding: 2%; */
         color: white;
+    }
+
+    section.about  blockquote {
+        font-size: 24px;
+    }
+
+    section.about div.about-text {
+        font-size: 20px;
     }
 
   }

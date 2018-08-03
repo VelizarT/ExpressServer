@@ -14,12 +14,12 @@
 </head>
 
 <body>
-    {{> header}} {{> header_mobile}}
-
-    {{!-- <div class="row"> --}}
+    {{> header}} {{> header_mobile}} {{!--
+    <div class="row"> --}}
         <section class="home in-view">
             <div class="overlay in-view">
-                {{!-- <div class="circle-cnt">
+                {{!--
+                <div class="circle-cnt">
                     <div class="circle"></div>
                     <div class="text">That's me!</div>
                 </div> --}}
@@ -142,42 +142,44 @@
                 </div>
             </div>
             <div class="sub-content container">
-                <div class="col s12 m10 l10 xl10 offset-m2 offset-l2 offset-xl2">
-                    <div class="row">
-                        <div class="col s12 m12 l12 xl12">
-                            <h3 class="header">My skills</h3>
-                            <div class="card horizontal">
-                                <div class="card-stacked">
-                                    <div class="card-content">
-                                        <img src="../img/HTML5.png" class="img-resize responsive-img">
-                                        <img src="../img/css.png" class="img-resize responsive-img">
-                                        <img src="../img/js.png" class="img-resize responsive-img">
-                                        <img src="../img/jquery.png" class="img-resize responsive-img">
-                                        <img src="../img/node.png" class="img-resize responsive-img">
-                                        <img src="../img/bootstrap.png" class="img-resize responsive-img">
-                                        <img src="../img/materialize.png" class="img-resize responsive-img">
-                                        <img src="../img/npm.png" class="img-resize responsive-img">
-                                        <img src="../img/mongo.png" class="img-resize responsive-img">
-                                        <img src="../img/heroku.png" class="img-resize responsive-img">
-                                        <img src="../img/sharepoint.png" class="img-resize responsive-img">
-                                        <img src="../img/git.png" class="img-resize responsive-img">
-                                        <img src="../img/photoshop.png" class="img-resize responsive-img">
+                <div class="row">
+                    <div class="col s12 m10 l10 xl10 offset-m2 offset-l2 offset-xl2">
+                        <div class="row">
+                            <div class="col s12 m12 l12 xl12">
+                                <h3 class="header">My skills</h3>
+                                <div class="card horizontal">
+                                    <div class="card-stacked">
+                                        <div class="card-content">
+                                            <img src="../img/HTML5.png" class="img-resize responsive-img">
+                                            <img src="../img/css.png" class="img-resize responsive-img">
+                                            <img src="../img/js.png" class="img-resize responsive-img">
+                                            <img src="../img/jquery.png" class="img-resize responsive-img">
+                                            <img src="../img/node.png" class="img-resize responsive-img">
+                                            <img src="../img/bootstrap.png" class="img-resize responsive-img">
+                                            <img src="../img/materialize.png" class="img-resize responsive-img">
+                                            <img src="../img/npm.png" class="img-resize responsive-img">
+                                            <img src="../img/mongo.png" class="img-resize responsive-img">
+                                            <img src="../img/heroku.png" class="img-resize responsive-img">
+                                            <img src="../img/sharepoint.png" class="img-resize responsive-img">
+                                            <img src="../img/git.png" class="img-resize responsive-img">
+                                            <img src="../img/photoshop.png" class="img-resize responsive-img">
+                                        </div>
+                                        {{!--
+                                        <div class="card-action">
+                                            <a href="#">This is a link</a>
+                                        </div> --}}
                                     </div>
-                                    {{!--
-                                    <div class="card-action">
-                                        <a href="#">This is a link</a>
-                                    </div> --}}
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col s12 m12 l12 xl12">
-                            <h3 class="header">Currently learning</h3>
-                            <div class="card horizontal">
-                                <div class="card-stacked">
-                                    <div class="card-content">
-                                        <img src="../img/angular.png" class="img-resize responsive-img">
+                        <div class="row">
+                            <div class="col s12 m12 l12 xl12">
+                                <h3 class="header">Currently learning</h3>
+                                <div class="card horizontal">
+                                    <div class="card-stacked">
+                                        <div class="card-content">
+                                            <img src="../img/angular.png" class="img-resize responsive-img">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -197,24 +199,32 @@
             <br>
             <br>
             <div class="sub-content container">
-                <div class="col s12 m10 l10 xl10 offset-m2 offset-l2 offset-xl2">
-                    <div class="row">
-                        <div class="col s12 m12 l12 xl12">
-                            <div class="card horizontal">
-                                <div class="card-stacked">
-                                    <div class="card-content">
-                                        <div class="row">
-                                            <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">email</i></a>
+                <div class="row">
+                    <div class="col s12 m10 l10 xl10 offset-m2 offset-l2 offset-xl2">
+                        <div class="row">
+                            <div class="col s12 m12 l12 xl12">
+                                <div class="card horizontal">
+                                    <div class="card-stacked">
+                                        <div class="card-content">
+                                            <div class="row">
+                                                <a class="btn-floating btn-large waves-effect waves-light red">
+                                                    <i class="material-icons">email</i>
+                                                </a>
+                                            </div>
+                                            <div class="row">
+                                                <a class="btn-floating btn-large waves-effect waves-light red">
+                                                    <i class="material-icons">linkdin</i>
+                                                </a>
+                                            </div>
+                                            <div class="row">
+                                                <a class="btn-floating btn-large waves-effect waves-light red">
+                                                    <i class="material-icons">git</i>
+                                                </a>
+                                            </div>
                                         </div>
-                                        <div class="row">
-                                            <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">linkdin</i></a>
+                                        <div class="card-action">
+                                            <a target="_blank" href="https://drive.google.com/file/d/1rWOab4iF1kepEYXEMCcSLcACWV-4o_Ce/view?usp=sharing">Link to my resume</a>
                                         </div>
-                                        <div class="row">
-                                          <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">git</i></a>
-                                        </div>
-                                    </div>
-                                    <div class="card-action">
-                                        <a target="_blank" href="https://drive.google.com/file/d/1rWOab4iF1kepEYXEMCcSLcACWV-4o_Ce/view?usp=sharing">Link to my resume</a>
                                     </div>
                                 </div>
                             </div>
@@ -224,14 +234,10 @@
             </div>
         </section>
 
-    {{!-- </div> --}}
-
-
-    {{!-- {{> footer}} --}}
+        {{!-- </div> --}} {{!-- {{> footer}} --}}
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
     <script type="text/javascript" src="../scripts/home.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
 </body>
-
 </html>

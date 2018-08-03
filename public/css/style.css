@@ -170,6 +170,7 @@ nav#sidenav-custom ul li a span {
     font-size: 38px;
     padding: 2%;
     color: white;
+    font-weight: 200;
 }
 
 @keyframes show {
