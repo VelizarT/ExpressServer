@@ -16,11 +16,7 @@ nav#sidenav-custom {
     .hide-large-device {
       display: none;
     }
-  }
-
-/* nav ul {
-    width: 100%;
-} */
+}
 
 nav#sidenav-custom ul li.logo {
     text-align: center;
@@ -33,7 +29,7 @@ nav#sidenav-custom ul li.logo a:hover {
 }
 
 nav#sidenav-custom ul li.logo h1 {
-    font-size: 24px;
+    font-size: 32px;
     padding: 11px;
     font-weight: 300;
 }
@@ -44,7 +40,8 @@ nav#sidenav-custom ul li.logo h1:not(span) {
 
 nav#sidenav-custom ul li.logo span {
     display: block;
-    font-size: 14px;
+    margin: auto;
+    font-size: 15px;
     font-weight: 100;
 }
 
@@ -70,7 +67,7 @@ nav ul li a {
     margin: 0;
     width: 100%;
     color: #333;
-    font-size: 12px;
+    font-size: 24px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -83,7 +80,7 @@ nav#sidenav-custom ul li a i {
 
 nav#sidenav-custom ul li a span {
     margin-left: 45px;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 200;
     color: #333 !important;
 }
@@ -110,7 +107,6 @@ nav#sidenav-custom ul li a span {
     width: 100%;
     height: 15vh;
     font-weight: 200;
-    /* background-color: #F9A825; */
     background-color: #009898;
     display: flex;
     flex-direction: row;
@@ -125,42 +121,12 @@ nav#sidenav-custom ul li a span {
     font-size: 3.9vw;
 }
 
-/* .sub-content {
-    margin-top: 5vh;
-} */
-
 .quote-cnt blockquote {
     font-size: 2vw;
 }
 
 .about-text {
     font-size: 1.5vw;
-}
-
-.circle-cnt {
-    position: absolute;
-    margin-left: 37.5vw;
-    margin-top: 8vh;
-    opacity: 0;
-    /* visibility: hidden; */
-    /* transition: visibility 1s, opacity 0.5s linear; */
-
-    animation: show 5s 0.2s forwards;
-}
-
-.circle {
-    border-radius: 50%;
-    width: 180px;
-    height: 180px;
-    border: 5px solid #333;
-}
-
-
-.text {
-    width: 200px;
-    font-size: 38px;
-    margin-left: 11vw;
-    margin-top: -30vh;
 }
 
 .text-cnt {
@@ -172,13 +138,6 @@ nav#sidenav-custom ul li a span {
     padding: 2%;
     color: white;
     font-weight: 200;
-}
-
-@keyframes show {
-    /* 0% { margin-left: 50%;} */
-    /* 50% { margin-left: 50%} */
-    50% { opacity: 1;}
-    100% { opacity: 0;}
 }
 
 .img-resize {
