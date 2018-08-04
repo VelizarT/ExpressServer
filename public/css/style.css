@@ -5,7 +5,7 @@ body {
 }
 
 nav#sidenav-custom {
-    width: 190px;
+    width: 200px;
     height: 100vh;
     background-color: white;
     position: fixed;
@@ -93,9 +93,9 @@ nav#sidenav-custom ul li a span {
 }
 
 .home {
-    background: url('../img/me-and-the-crew.jpg') no-repeat center center;
+    background: url('../img/me-mountain.jpg') no-repeat center center;
     background-size: cover;
-    background-color: rgb(2, 2, 2);
+    background-color: white;
 }
 
 .overlay {
@@ -166,7 +166,8 @@ nav#sidenav-custom ul li a span {
 .text-cnt {
     width: 40vw;
     margin-top: 65vh;
-    /* margin-right: 15vw; */
+    background-color: #009898;
+    margin-right: 3vw;
     font-size: 38px;
     padding: 2%;
     color: white;
@@ -191,5 +192,5 @@ div.card-content a span {
 }
 
 div.card-image img {
-    height: 150px;
+    min-height: 200px;
 }
