@@ -36,6 +36,22 @@ $(document).ready(function(){
         }, 300);
     });
 
+    // $(".email-btn").click(function() {
+    //     window.open('http://stackoverflow.com', '_blank');
+    // });
+
+    // $(".linkedin-btn").click(function() {
+    //     $([document.documentElement, document.body]).animate({
+    //         scrollTop: $(".contacts").offset().top - subTitleAditionalSpace
+    //     }, 300);
+    // });
+
+    // $(".github-btn").click(function() {
+    //     $([document.documentElement, document.body]).animate({
+    //         scrollTop: $(".contacts").offset().top - subTitleAditionalSpace
+    //     }, 300);
+    // });
+
     $(".menu-trigger").click(function() {
         $('#sidenav-custom').removeClass('hide-on-small-only');
     });

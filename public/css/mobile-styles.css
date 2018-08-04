@@ -5,7 +5,8 @@
     } */
 
     nav#navbar-small {
-        background-color: #009898;
+        background-color: white;
+        color: #009898;
         height: 15h;
         position: fixed;
         z-index: 999;
@@ -20,6 +21,7 @@
     }
 
     .brand-logo {
+        color: #009898 !important;
         font-size: 18px !important;
     }
 

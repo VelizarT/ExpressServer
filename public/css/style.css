@@ -185,3 +185,7 @@ nav#sidenav-custom ul li a span {
     height: 100px;
     margin: 2%;
 }
+
+div.card-content a span {
+    margin-left: 2%;
+}
