@@ -122,11 +122,12 @@ nav#sidenav-custom ul li a span {
 }
 
 .quote-cnt blockquote {
-    font-size: 2vw;
+    font-size: 36px;
 }
 
 .about-text {
-    font-size: 1.5vw;
+    font-size: 28px;
+    font-weight: 200;
 }
 
 .text-cnt {
@@ -148,6 +149,7 @@ nav#sidenav-custom ul li a span {
 
 div.card-content a span {
     margin-left: 2%;
+    font-size: 20px;
 }
 
 div.card-image img {

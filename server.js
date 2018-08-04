@@ -1,7 +1,7 @@
 const express = require('express');
 const hbs = require('hbs');
 const fs = require('fs');
-const port = process.env.PORT || 3000; //all environment variables are in process.env!
+const port = process.env.PORT || 3000;
 
 var app = express();
 
@@ -14,30 +14,9 @@ app.set('view engine', hbs);
 
 app.use(express.static(__dirname + '/public')); 
 
-//regiter helper function to use in templates
-// hbs.registerHelper('getCurrentYear', () => {
-//     return new Date().getFullYear();
-// });
-
-// hbs.registerHelper('screamIt', (text) => {
-//     return text.toUpperCase();
-// });
-
 app.get('/', (req, res) => {
     res.render('home.hbs'); 
 });
-
-// app.get('/about', (req, res) => {
-//     res.render('about.hbs', {
-//         title: 'About Page',
-//     });
-// });
-
-// app.get('/projects', (req, res) => {
-//     res.render('projects.hbs', {
-//         title: 'Projects'
-//     });
-// });
 
 //sends back json with error message
 app.get('/bad', (req, res) => {
