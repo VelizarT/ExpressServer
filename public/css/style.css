@@ -189,3 +189,7 @@ nav#sidenav-custom ul li a span {
 div.card-content a span {
     margin-left: 2%;
 }
+
+div.card-image img {
+    height: 150px;
+}
